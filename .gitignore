@@ -1,0 +1,27 @@
+# Секретные файлы - НИКОГДА не пушить
+.env
+*.env
+
+# Виртуальное окружение Python
+venv/
+env/
+.venv/
+
+# Кеш Python
+__pycache__/
+*.pyc
+
+# База данных SQLite
+*.db
+*.sqlite
+
+# Node.js зависимости
+node_modules/
+
+# Сборка React
+build/
+dist/
+
+# IDE файлы
+.vscode/
+.idea/
